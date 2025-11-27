@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from './ProductCard'; 
 
-const API_URL = 'http://localhost:3000/api/produtos'; 
+const API_URL = 'https://feira-balsas-api.onrender.com/api/produtos';
 
 function ProductList() {
     const [produtos, setProdutos] = useState([]);
